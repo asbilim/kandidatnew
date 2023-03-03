@@ -13,8 +13,8 @@ urlpatterns = [
     path('kandidat/update/<int:id>',kandidat_update,name='kandidat-update'),
     path('kandidat/delete/<int:id>',kandidat_delete,name="kandidat-delete"),
     path('kandidat/all/delete',kandidat_delete_all,name="kandidat-delete-all"),
-    path('login',signin,name='login'),
     path('register',register,name='register'),
-    path('logout',signout,name='logout'),
+    # path('login',signin,name='login'),
+    # path('logout',signout,name='logout'),
 
 ]
